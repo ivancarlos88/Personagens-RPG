@@ -9,7 +9,7 @@ public class Nick {
 	
 	
 	public Nick(int level, int vida, int defesa, int exp, int gaugeExp) {
-		super();
+		
 		this.level = level;
 		this.vida = vida;
 		this.defesa = defesa;
@@ -65,8 +65,11 @@ public class Nick {
 		this.gaugeExp = gaugeExp;
 	}
 	
-	public void NextLevel(){
-		
+	public void nextLevel() {
+		if(exp >= gaugeExp) {
+			level++;
+			System.out.println("LEVEL UP!");
+		}
 	}
 	
 	

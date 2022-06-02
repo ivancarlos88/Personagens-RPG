@@ -16,9 +16,11 @@ public class Guerreiro extends Nick{
 		this.força = força;
 	}
 	
-	public void LevelGuerreiro() {
-		
+	public void statusGuerreiro() {
+		System.out.println("Level: " + this.level);
+		System.out.println("Vida: " + this.vida);
+		System.out.println("Defesa: " + this.defesa);
+		System.out.println("Exp: " + this.exp);
+		System.out.println("Força: " + this.força);
 	}
-
-	
 }

@@ -16,7 +16,11 @@ public class Mago extends Nick {
 		this.inteligencia = inteligencia;
 	}
 
-	public void LevelMago() {
-		
+	public void statusMago() {
+		System.out.println("Level: " + this.level);
+		System.out.println("Exp: " + this.exp);
+		System.out.println("Vida: " + this.vida);
+		System.out.println("Defesa: " + this.defesa);
+		System.out.println("Inteligência: " + this.inteligencia);
 	}
 }
